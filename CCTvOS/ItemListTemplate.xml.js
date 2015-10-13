@@ -1,0 +1,24 @@
+var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
+  <document>
+    <catalogTemplate> 
+      <banner> 
+  <title>${this.title}</title>
+      </banner>
+      <list> 
+        <section> 
+				  <listItemLockup> 
+				    <title>編輯嚴選</title>
+                    <decorationLabel></decorationLabel>
+				    <relatedContent> 
+				      <grid>
+				        <section>
+                          ${this.itemList}
+                        </section>
+				      </grid>
+				    </relatedContent>
+				  </listItemLockup>
+        </section>
+      </list>
+    </catalogTemplate>
+  </document>`
+}

@@ -1,0 +1,10 @@
+framework module CCMockData {
+  umbrella header "CCMockData.h"
+
+  export *
+  module * { export * }
+}
+
+module CCMockData.Swift {
+    header "CCMockData-Swift.h"
+}
